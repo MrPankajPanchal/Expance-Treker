@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wallet Card / Shadow Base -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M30,38 h48 c4.4,0 8,3.6 8,8 v26 c0,4.4 -3.6,8 -8,8 h-48 c-4.4,0 -8,-3.6 -8,-8 v-26 c0,-4.4 3.6,-8 8,-8 Z" />
+    
+    <!-- Main Wallet Body -->
+    <path
+        android:pathData="M28,34 h52 c4.4,0 8,3.6 8,8 v26 c0,4.4 -3.6,8 -8,8 h-52 c-4.4,0 -8,-3.6 -8,-8 v-26 c0,-4.4 3.6,-8 8,-8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="34"
+                android:endX="88"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#E2E8F0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Card / Bill Peek -->
+    <path
+        android:pathData="M36,28 h36 c2.2,0 4,1.8 4,4 v4 h-44 v-4 c0,-2.2 1.8,-4 4,-4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="28"
+                android:endX="76"
+                android:endY="36"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#34D399"/>
+                <item android:offset="1.0" android:color="#059669"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Flap / Pocket -->
+    <path
+        android:pathData="M60,46 h26 c2.2,0 4,1.8 4,4 v14 c0,2.2 -1.8,4 -4,4 h-26 c-4.4,0 -8,-3.6 -8,-8 v-6 c0,-4.4 3.6,-8 8,-8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="52"
+                android:startY="46"
+                android:endX="90"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F8FAFC"/>
+                <item android:offset="1.0" android:color="#CBD5E1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Coin Clasp Gold -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M64,56 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M64,56 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Upward Trend Arrow in Wallet -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M33,60 l7,-7 l5,5 l9,-10 l0,4 l2,0 l0,-7 l-7,0 l0,2 l4,0 l-8,8.5 l-5,-5 l-7,7.5 Z" />
+</vector>
